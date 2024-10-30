@@ -59,7 +59,7 @@ Para alterar o formato do arquivo para opencover que é o desejado para esse pro
 
 Como resultado é gerado o arquivo ```coverage.opencover.xml``` e um relatório simples no prompt de comando:
 
-![execucao_coverage](https://github.com/salatielmarinho/TestesUnitarios/blob/master/src/assets/Execucao_Coverage.png)
+![execucao_coverage](https://github.com/salatielmarinho/TestesUnitarios/blob/main/assets/Execucao_Coverage.png)
 
 Com o arquivo no formato opencover gerado pelo Coverlet, um relatório em HTML pode ser gerado, 
 para isso abro um novo prompt e navego ate o local onde o ReportGenerator foi salvo e executo o seguinte comando:
@@ -71,15 +71,15 @@ no meu caso o comando que utilizei foi:
 
 ```ReportGenerator.exe -reports:"C:\Users\Public\repositorio\LivesFiap\TestesUnitarios1\src\TesteUnitarioFiap.Test\coverage.opencover.xml" -targetdir:"C:\Users\Public\repositorio\LivesFiap\TestesUnitarios1\src\TesteUnitarioFiap.Test\report"```
 
-![execucao_coverage1](https://github.com/salatielmarinho/TestesUnitarios/blob/master/src/assets/Execucao_Coverage1.png)
+![execucao_coverage1](https://github.com/salatielmarinho/TestesUnitarios/blob/main/assets/Execucao_Coverage1.png)
 
 Vou na pasta report onde se encontram os arquivo salvos e clico no ```index.html``` para ser aberta uma página com o relatório:
 
-![execucao_coverage2](https://github.com/salatielmarinho/TestesUnitarios/blob/master/src/assets/Execucao_Coverage2.png)
+![execucao_coverage2](https://github.com/salatielmarinho/TestesUnitarios/blob/main/assets/Execucao_Coverage2.png)
 
 Com esse relatório é posível visualizar as informações sobre a cobertura de código:
 
-![execucao_coverage3](https://github.com/salatielmarinho/TestesUnitarios/blob/master/src/assets/Execucao_Coverage3.png)
+![execucao_coverage3](https://github.com/salatielmarinho/TestesUnitarios/blob/main/assets/Execucao_Coverage3.png)
 
 Referência:[ Usar cobertura de código para teste de unidade](https://docs.microsoft.com/pt-br/dotnet/core/testing/unit-testing-code-coverage?tabs=windows).
 
